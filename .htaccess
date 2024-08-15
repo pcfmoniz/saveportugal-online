@@ -1,0 +1,60 @@
+errorDocument 404 /404.html
+
+#FUNCIONAIS
+RewriteRule ^newsletter$ https://mailchi.mp/82031a93fee4/newsletter-save-portugal [R=301,L,QSA]
+RewriteRule ^links$ https://saveportugal.pt/agir [R=301,L,QSA]
+RewriteRule ^pbt$ https://plantbasedtreaty.org/portugal-action/ [R=301,L]
+RewriteRule ^contato$ https://saveportugal.pt/contacto [R=301,L]
+RewriteRule ^upload$ https://saveportugal.pt/ [R=301,L,QSA]
+RewriteRule ^eventosclima$ https://www.facebook.com/ClimateSavePortugal/events [R=301,L]
+
+
+
+#AGIR
+RewriteRule ^espanha$ https://saveportugal.pt/agir/espanha [R=301,L,QSA]
+RewriteRule ^sagrestourada$ https://saveportugal.pt/agir/sagrestourada/ [R=301,L,QSA]
+RewriteRule ^TouradasRTP$ https://saveportugal.pt/agir/touradas [R=301,L]
+RewriteRule ^touradasrtp$ https://saveportugal.pt/agir/touradas [R=301,L]
+RewriteRule ^touradas$ https://saveportugal.pt/agir/touradas [R=301,L]
+RewriteRule ^realojamento$ https://saveportugal.pt/agir/realojamento [R=301,L]
+RewriteRule ^montaria$ https://saveportugal.pt/agir/montaria [R=301,L]
+RewriteRule ^massacre$ https://saveportugal.pt/agir/icnf [R=301,L]
+RewriteRule ^icnf$ https://saveportugal.pt/agir/icnf [R=301,L]
+RewriteRule ^sintra$ https://saveportugal.pt/agir/sintra [R=301,L]
+RewriteRule ^pombos$ https://saveportugal.pt/agir/pombos [R=301,L]
+RewriteRule ^patav$ https://saveportugal.pt/agir/patav [R=301,L]
+RewriteRule ^cv$ https://saveportugal.pt/agir/caboverde [R=301,L]
+RewriteRule ^caboverde$ https://saveportugal.pt/agir/caboverde [R=301,L]
+
+
+#REDIRECCIONAR
+RewriteRule ^porcos$ https://peticaopublica.com/?pi=PT100917 [R=301,L]
+RewriteRule ^peles$ https://www.eurogroupforanimals.org/pt-pt/por-uma-europa-livre-de-pele [R=301,L]
+RewriteRule ^polvos$ https://www.drove.com/campaign/6202d5ca01cf365ea19492a3 [R=301,L,QSA]
+RewriteRule ^alagoas$ https://peticaopublica.com/?pi=PT114513 [R=301,L,QSA]
+RewriteRule ^testes$ https://saveportugal.pt/agir [R=301,L]
+RewriteRule ^matadouros$ https://saveportugal.pt/agir [R=301,L]
+RewriteRule ^4r$ https://forms.gle/Mb43JCpYVhuoxXav8 [R=301,L]
+RewriteRule ^cop28$ https://drove.com/.2Gso [R=301,L]
+RewriteRule ^safeandjust$ https://drive.google.com/file/d/1RGMPXNW1CAnJiApYLsp1ga6loI5P2qeQ/view?usp=sharing [R=301,L]
+Redirect /agir/massacre /agir/icnf
+RewriteRule ^Expofacic$ https://forms.gle/5hCU5sXnXNDiteUi6 [R=301,L]
+RewriteRule ^expofacic$ https://forms.gle/5hCU5sXnXNDiteUi6 [R=301,L]
+
+
+#RewriteRule ^accoes$ https://saveportugal.pt/agenda/ [R=301,L,QSA]
+#RewriteRule ^cavaloslisboa$ https://saveportugal.pt/agir/cavaloslisboa [R=301,L,QSA]
+#RewriteRule ^coleteencarnado$ https://saveportugal.pt/agir/coleteencarnado/ [R=301,L,QSA]
+#RewriteRule ^TouradasRTP$ https://saveportugal.pt/agir/touradasrtp [R=301,L]
+#RewriteRule ^touradasrtp$ https://saveportugal.pt/agir/touradasrtp [R=301,L]
+#RewriteRule ^ioscalendar$ webcal://saveportugal.pt/?post_type=tribe_events&tribe-bar-date=2022-07-13&ical=1&eventDisplay=list [R=301,L,QSA]
+#RewriteRule ^googlecalendar$ https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fsaveportugal.pt%2F%3Fpost_type%3Dtribe_events%26tribe-bar-date%3D2022-07-13%26ical%3D1%26eventDisplay%3Dlist [R=301,L,NE]
+#RewriteRule ^eventos$ https://saveportugal.pt/accoes/ [R=301,L,QSA]
+#RewriteRule ^repudio$ https://saveportugal.pt/agir [R=301,L,QSA]
+#RewriteRule ^poiartes$ saveportugal.pt/agir [R=301,L,QSA]
+#RewriteRule ^sintra$ https://saveportugal.pt/agir/sintra [R=301,L,QSA]
+#RewriteRule ^ativista$ https://saveportugal.pt/veganario [R=301,L,QSA]
+#RewriteRule ^veganario$ https://saveportugal.pt/activista [R=301,L,QSA]
+#RewriteRule ^zoo$ https://saveportugal.pt/agir/zoo [R=301,L,QSA]
+#RewriteRule ^zoo/$ https://saveportugal.pt/agir/zoo [R=301,L,QSA]
+#RewriteRule ^loure$ https://saveportugal.pt/agir/loure [R=301,L,QSA]
