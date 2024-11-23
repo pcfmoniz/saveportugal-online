@@ -25,6 +25,8 @@ RewriteRule ^pombos$ https://saveportugal.pt/agir/pombos [R=301,L]
 RewriteRule ^cv$ https://saveportugal.pt/agir/caboverde [R=301,L]
 RewriteRule ^caboverde$ https://saveportugal.pt/agir/caboverde [R=301,L]
 RewriteRule ^meas$ https://saveportugal.pt/agir/meas [R=301,L]
+RewriteRule ^cascais$ https://saveportugal.pt/agir/cascais [R=301,L]
+
 
 
 #REDIRECCIONAR
@@ -59,3 +61,5 @@ RewriteRule ^patav$ https://peticaopublica.com/psign.aspx?pi=PeticaoPATAV2024 [R
 #RewriteRule ^zoo$ https://saveportugal.pt/agir/zoo [R=301,L,QSA]
 #RewriteRule ^zoo/$ https://saveportugal.pt/agir/zoo [R=301,L,QSA]
 #RewriteRule ^loure$ https://saveportugal.pt/agir/loure [R=301,L,QSA]
+#RewriteRule ^cascais$ https://saveportugal.pt/agir/cascais [R=301,L,QSA]
+
