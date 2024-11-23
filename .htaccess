@@ -22,9 +22,9 @@ RewriteRule ^massacre$ https://saveportugal.pt/agir/icnf [R=301,L]
 RewriteRule ^icnf$ https://saveportugal.pt/agir/icnf [R=301,L]
 RewriteRule ^sintra$ https://saveportugal.pt/agir/sintra [R=301,L]
 RewriteRule ^pombos$ https://saveportugal.pt/agir/pombos [R=301,L]
-RewriteRule ^patav$ https://saveportugal.pt/agir/patav [R=301,L]
 RewriteRule ^cv$ https://saveportugal.pt/agir/caboverde [R=301,L]
 RewriteRule ^caboverde$ https://saveportugal.pt/agir/caboverde [R=301,L]
+RewriteRule ^meas$ https://saveportugal.pt/agir/meas [R=301,L]
 
 
 #REDIRECCIONAR
@@ -40,6 +40,7 @@ RewriteRule ^safeandjust$ https://drive.google.com/file/d/1RGMPXNW1CAnJiApYLsp1g
 Redirect /agir/massacre /agir/icnf
 RewriteRule ^Expofacic$ https://forms.gle/5hCU5sXnXNDiteUi6 [R=301,L]
 RewriteRule ^expofacic$ https://forms.gle/5hCU5sXnXNDiteUi6 [R=301,L]
+RewriteRule ^patav$ https://peticaopublica.com/psign.aspx?pi=PeticaoPATAV2024 [R=301,L]
 
 
 #RewriteRule ^accoes$ https://saveportugal.pt/agenda/ [R=301,L,QSA]
