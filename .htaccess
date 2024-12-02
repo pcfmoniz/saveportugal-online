@@ -26,6 +26,7 @@ RewriteRule ^cv$ https://saveportugal.pt/agir/caboverde [R=301,L]
 RewriteRule ^caboverde$ https://saveportugal.pt/agir/caboverde [R=301,L]
 RewriteRule ^meas$ https://saveportugal.pt/agir/meas [R=301,L]
 RewriteRule ^cascais$ https://saveportugal.pt/agir/cascais [R=301,L]
+RewriteRule ^palaciodogelo$ https://saveportugal.pt/agir/palaciodogelo [R=301,L]
 
 
 
