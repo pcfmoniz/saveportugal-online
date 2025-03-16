@@ -3,7 +3,7 @@ errorDocument 404 /404.html
 #FUNCIONAIS
 RewriteRule ^newsletter$ https://mailchi.mp/82031a93fee4/newsletter-save-portugal [R=301,L,QSA]
 RewriteRule ^links$ https://saveportugal.pt/agir [R=301,L,QSA]
-RewriteRule ^pbt$ https://plantbasedtreaty.org/portugal-action/ [R=301,L]
+RewriteRule ^pbt$ https://plantbasedtreaty.org/portugal-city-campaigns/ [R=301,L]
 RewriteRule ^contato$ https://saveportugal.pt/contacto [R=301,L]
 RewriteRule ^upload$ https://saveportugal.pt/ [R=301,L,QSA]
 RewriteRule ^eventosclima$ https://www.facebook.com/ClimateSavePortugal/events [R=301,L]
